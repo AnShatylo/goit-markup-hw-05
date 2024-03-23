@@ -613,9 +613,6 @@ button {
     margin-bottom: 8px;
 }
 
-.modal-textarea-wrap {
-    margin-bottom: 16px;
-}
 
 .modal-form-label {
     font-weight: 400;
@@ -669,6 +666,7 @@ button {
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 16px;
     
 }
 
