@@ -473,10 +473,10 @@ button {
 }
 
 .footer-newsletter-form {
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 .footer-newsletter-input {
@@ -523,11 +523,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
 }
 
 .newsletter-button-icon {
     fill: #fff;
+    margin-left: 16px;
 }
 
 /* ========END========= */
@@ -610,6 +610,10 @@ button {
 .modal-form-group {
     display: flex;
     flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.modal-form-textarea {
     margin-bottom: 16px;
 }
 
@@ -697,7 +701,7 @@ button {
     margin-left: 3px;
 }
 
-.privacy-text span {
+.privacy-text .user-privacy-checkbox {
     margin-right: 8px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -711,9 +715,10 @@ button {
 }
 
 
-.modal-privacy:checked + .privacy-text span {
+.modal-privacy:checked + .privacy-text .user-privacy-checkbox {
     background-color: #404bbf;
     fill: #F4F4FD;
+    border: none;
 }
 
 .modal-form-button {
